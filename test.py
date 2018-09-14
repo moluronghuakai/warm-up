@@ -51,7 +51,7 @@ for i in range(1,100000):
     l.append(a)
     arr = np.array(l)
 print(arr[99998])
-'''''''''
+#sympy
 import sympy
 from sympy import *
 n = Symbol('n')
@@ -60,4 +60,4 @@ print(limit(s, n, oo))
 i = sympy.symbols('i',integer = True)
 a = float(sympy.summation((((-1)**(i+1))/i)*((6.0/7.0)**i),(i,1,sympy.oo)))
 print(a)
-'''''
+
